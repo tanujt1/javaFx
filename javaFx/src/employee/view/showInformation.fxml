@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="employee.view.ShowInformationController">
+   <center>
+      <TableView fx:id="tableview" prefHeight="292.0" prefWidth="489.0" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn fx:id="name" prefWidth="123.0" text="Name" />
+          <TableColumn fx:id="phone" prefWidth="121.0" text="Phone" />
+            <TableColumn fx:id="city" prefWidth="126.0" text="City" />
+            <TableColumn fx:id="email" prefWidth="117.0" text="Email" />
+            <TableColumn fx:id="address" prefWidth="112.0" text="Address" />
+        </columns>
+      </TableView>
+   </center>
+</BorderPane>
